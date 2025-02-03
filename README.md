@@ -18,9 +18,9 @@ Or, if you'd prefer to use the command line, try running:
 git clone https://github.com/emk/rust-buildpack-example-rocket.git
 cd rust-buildpack-example-rocket
 
-# Install a known-good nightly build.
-rustup install nightly-2018-12-08
-rustup override set nightly-2018-12-08
+# Install a known-good stable build.
+rustup install stable
+rustup override set stable
 
 heroku create --buildpack emk/rust
 git push heroku master
